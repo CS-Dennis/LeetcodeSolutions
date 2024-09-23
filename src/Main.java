@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String a = "abcabcbb";
-        Solution3 s = new Solution3();
-        System.out.println(s.lengthOfLongestSubstring(a));
-
+        int[] nums1 = {};
+        int[] nums2 = {1};
+        Solution4 s = new Solution4();
+        System.out.println(s.findMedianSortedArrays(nums1, nums2));
     }
 }
