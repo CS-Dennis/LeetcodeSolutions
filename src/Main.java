@@ -4,7 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       int a = 1534236469;
-        System.out.println(new Solution7().reverse(a));
+      String a = "20000000000000000000";
+        System.out.println(new Solution8().myAtoi(a));
+//        System.out.println(Integer.MAX_VALUE);
     }
 }
