@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        String a = "23";
-
-        Solution17 s = new Solution17();
-        System.out.println(s.letterCombinations(a));
+        int[] a = {1000000000,1000000000,1000000000,1000000000};
+        Solution18 s = new Solution18();
+        System.out.println(s.fourSum(a, -294967296));
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
     }
 }
