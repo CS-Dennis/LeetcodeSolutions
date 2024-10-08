@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String a = "))))()()))))";
-        Solution32 s = new Solution32();
-        System.out.println(s.longestValidParentheses(a));
+        int[] nums = {3,5,7,9,10};
+        Solution35 s = new Solution35();
+        System.out.println(s.searchInsert(nums, 8));
     }
 }
