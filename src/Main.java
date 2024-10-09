@@ -1,11 +1,21 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {3,5,7,9,10};
-        Solution35 s = new Solution35();
-        System.out.println(s.searchInsert(nums, 8));
+        int init  =10;
+        int increment = 2;
+        int times = 20;
+
+        int result = add(init, increment, times, 0);
+
+        System.out.println(result);
+    }
+
+    private static int add(int init, int increment, int times, int counter){
+        if(counter==times){
+            return init;
+        } else {
+            init += increment;
+            counter++;
+            return add(init, increment, times, counter);
+        }
     }
 }
