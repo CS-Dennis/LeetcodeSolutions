@@ -1,21 +1,11 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        int init  =10;
-        int increment = 2;
-        int times = 20;
+        Solution39 s = new Solution39();
+        s.combinationSum(new int[]{2,3,6,7}, 7);
 
-        int result = add(init, increment, times, 0);
-
-        System.out.println(result);
-    }
-
-    private static int add(int init, int increment, int times, int counter){
-        if(counter==times){
-            return init;
-        } else {
-            init += increment;
-            counter++;
-            return add(init, increment, times, counter);
-        }
     }
 }
