@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Solution40 s = new Solution40();
-        s.combinationSum2(new int[]{2,5,2,1,2}, 5);
-
+        int[] nums = {-1,-2,1,1,3,4,5};
+        Solution41 s = new Solution41();
+        System.out.println(s.firstMissingPositive(nums));
     }
 }
