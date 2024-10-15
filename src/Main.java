@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {-1,-2,1,1,3,4,5};
-        Solution41 s = new Solution41();
-        System.out.println(s.firstMissingPositive(nums));
+        int[] nums = {0,1,0,2,1,0,1,3,2,1,2,1};
+        Solution42 s = new Solution42();
+        s.trap(nums);
     }
 }
