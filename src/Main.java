@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Solution43 s = new Solution43();
-        System.out.println(s.multiply("123", "456"));
+        int[] nums ={2,3,1,1,4};
+        Solution45 s = new Solution45();
+        System.out.println(s.jump(nums));
     }
 }
