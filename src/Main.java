@@ -5,9 +5,13 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] nums ={{1,2,3},{4,5,6},{7,8,9}};
-        Solution48 s = new Solution48();
-        s.rotate(nums);
+        String[] strs = {"aab","aabb"};
+        Solution49 s = new Solution49();
 
+        System.out.println(s.groupAnagrams(strs));
+//        String a="123";
+//        String b = a;
+//        b="789";
+//        System.out.println(a);
     }
 }
