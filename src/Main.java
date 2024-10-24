@@ -5,7 +5,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Solution50 s = new Solution50();
-        System.out.println(s.myPow(-2, 2));
+        int[] nums = {4,-1,-1,4,2,-3,4,-10,-1,5};
+        Solution53 s = new Solution53();
+
+        System.out.println( s.maxSubArray(nums));
     }
 }
