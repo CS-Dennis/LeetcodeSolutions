@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution42 {
     public int trap(int[] height) {
         int length = height.length;

@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution50 {
     public double myPow(double x, int n) {
         if (x == 0) {

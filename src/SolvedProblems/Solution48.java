@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution48 {
     public void rotate(int[][] matrix) {
         int[][] newMatrix = new int[matrix.length][matrix.length];

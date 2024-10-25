@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution45 {
     public int jump(int[] nums) {
         if(nums.length<=1){
