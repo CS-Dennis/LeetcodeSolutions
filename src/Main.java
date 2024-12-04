@@ -1,9 +1,12 @@
-import SolvedProblems.Solution54;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "Hello World";
-        Solution58 ss = new Solution58();
-        System.out.println(ss.lengthOfLastWord(s));
+        Solution60 s= new Solution60();
+        String a = s.getPermutation(9, 331987);
+        System.out.println(a);
+
     }
 }
