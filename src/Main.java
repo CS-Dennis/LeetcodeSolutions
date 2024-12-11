@@ -1,12 +1,9 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import SolvedProblems.Solution62;
+
 
 public class Main {
     public static void main(String[] args) {
-        Solution60 s= new Solution60();
-        String a = s.getPermutation(9, 331987);
-        System.out.println(a);
-
+        Solution62 s = new Solution62();
+        System.out.println(s.uniquePaths(3,7));
     }
 }
