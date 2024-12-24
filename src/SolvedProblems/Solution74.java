@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution74 {
     public boolean searchMatrix(int[][] matrix, int target) {
         int rows = matrix.length;

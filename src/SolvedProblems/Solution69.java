@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution69 {
     public int mySqrt(int x) {
         long start = 0;

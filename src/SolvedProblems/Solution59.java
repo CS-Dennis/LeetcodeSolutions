@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution59 {
     public int[][] generateMatrix(int n) {
 //      clock wise spiral

@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 import java.util.*;
 
 public class Solution60 {

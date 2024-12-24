@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 import java.util.regex.Pattern;
 
 public class Solution65 {

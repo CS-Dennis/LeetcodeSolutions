@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution64 {
     public int minPathSum(int[][] grid) {
         Integer[] array = new Integer[]{-1};

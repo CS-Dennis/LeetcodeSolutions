@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;

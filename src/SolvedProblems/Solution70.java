@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution70 {
     public int climbStairs(int n) {
         Integer[] ways = new Integer[]{0};
