@@ -3,7 +3,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Solution80 s = new Solution80();
-        System.out.println(s.removeDuplicates(new int[]{-3,-1,-1,0,0,0,0,0,2}));
+        int[] nums = {1,4,4,4,4};
+        Solution90 s = new Solution90();
+        System.out.println(s.subsetsWithDup(nums));
     }
 }
