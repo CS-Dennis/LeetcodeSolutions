@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution81 {
     public boolean search(int[] nums, int target) {
         if (nums.length == 1) {

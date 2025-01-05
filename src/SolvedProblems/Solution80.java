@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution80 {
     public int removeDuplicates(int[] nums) {
         int counter = 0;

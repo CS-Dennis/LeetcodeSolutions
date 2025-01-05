@@ -1,3 +1,5 @@
+package SolvedProblems;
+
 public class Solution91 {
     public int numDecodings(String s) {
 //        using DP. Example:
