@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> a = new ArrayList<>();
-        System.out.println(a.size());
+        System.out.println(1==1.0d);
     }
 }
